@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -141,8 +141,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/header */ "./components/header.jsx");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "reactstrap");
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/styles.scss */ "./styles/styles.scss");
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "C:\\Users\\Mark\\git\\sadbang\\layouts\\main.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -151,7 +154,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const MainLayout = props => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 12
   },
   __self: undefined
 }, __jsx("link", {
@@ -159,20 +162,20 @@ const MainLayout = props => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.F
   href: "/static/favicon.png",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 13
   },
   __self: undefined
 })), __jsx(_components_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 15
   },
   __self: undefined
 }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
   className: "pt-3",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 16
   },
   __self: undefined
 }, props.children));
@@ -1993,7 +1996,18 @@ const About = () => __jsx(_layouts_main__WEBPACK_IMPORTED_MODULE_1__["default"],
 
 /***/ }),
 
-/***/ 4:
+/***/ "./styles/styles.scss":
+/*!****************************!*\
+  !*** ./styles/styles.scss ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
+/***/ 5:
 /*!*************************************!*\
   !*** multi ./pages/about/index.jsx ***!
   \*************************************/

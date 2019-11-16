@@ -4,8 +4,6 @@ import MainLayout from '~/layouts/main'
 import { Button } from 'reactstrap'
 import Link from 'next/link'
 
-import "~/styles/styles.scss"
-
 const Index = () => (
   <MainLayout>
     <h1 className="text-center">Welcome to sadbang</h1>

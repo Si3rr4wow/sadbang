@@ -5,6 +5,8 @@ import Header from '../components/header'
 
 import { Container } from 'reactstrap'
 
+import "~/styles/styles.scss"
+
 const MainLayout = props => (
   <>
     <Head>

@@ -1,5 +1,11 @@
-import React from 'react'
+import styled from '@emotion/styled'
 
-export default function Header() {
-  return <div style={{ height: '4px', background: '#8787d8', color: 'white' }}></div>
-}
+const Header = styled.div`
+  height: 4px;
+  width: 100%;
+  background-color: var(--primary);
+  position: sticky;
+  top: 0;
+`
+
+export default Header

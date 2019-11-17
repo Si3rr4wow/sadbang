@@ -102,26 +102,62 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Header; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\Mark\\git\\sadbang\\components\\header.jsx";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled-base */ "@emotion/styled-base");
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_0__);
 
-function Header() {
-  return __jsx("div", {
-    style: {
-      height: '4px',
-      background: '#8787d8',
-      color: 'white'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  });
-}
+
+function _EMOTION_STRINGIFIED_CSS_ERROR__() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
+
+const Header = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_0___default()("div", {
+  target: "emfy9zo0",
+  label: "Header"
+})( false ? undefined : {
+  name: "1whwq2i",
+  styles: "height:4px;width:100%;background-color:var(--primary);position:sticky;top:0;",
+  map: "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcTWFya1xcZ2l0XFxzYWRiYW5nXFxjb21wb25lbnRzXFxoZWFkZXIuanN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUV5QiIsImZpbGUiOiJDOlxcVXNlcnNcXE1hcmtcXGdpdFxcc2FkYmFuZ1xcY29tcG9uZW50c1xcaGVhZGVyLmpzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBzdHlsZWQgZnJvbSAnQGVtb3Rpb24vc3R5bGVkJ1xyXG5cclxuY29uc3QgSGVhZGVyID0gc3R5bGVkLmRpdmBcclxuICBoZWlnaHQ6IDRweDtcclxuICB3aWR0aDogMTAwJTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1wcmltYXJ5KTtcclxuICBwb3NpdGlvbjogc3RpY2t5O1xyXG4gIHRvcDogMDtcclxuYFxyXG5cclxuZXhwb3J0IGRlZmF1bHQgSGVhZGVyXHJcbiJdfQ== */",
+  toString: _EMOTION_STRINGIFIED_CSS_ERROR__
+});
+
+/* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./components/parallax-image.jsx":
+/*!***************************************!*\
+  !*** ./components/parallax-image.jsx ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/extends */ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js");
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/styled-base */ "@emotion/styled-base");
+/* harmony import */ var _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_emotion_styled_base__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+
+
+var _jsxFileName = "C:\\Users\\Mark\\git\\sadbang\\components\\parallax-image.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
+
+
+const ParallaxStyle = _emotion_styled_base__WEBPACK_IMPORTED_MODULE_1___default()("div", {
+  target: "erxaiqt0",
+  label: "ParallaxStyle"
+})("user-select:'none';background-image:", ({
+  imageUrl
+}) => `url(${imageUrl})`, ";height:100%;width:100%;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover;" + ( false ? undefined : "/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcTWFya1xcZ2l0XFxzYWRiYW5nXFxjb21wb25lbnRzXFxwYXJhbGxheC1pbWFnZS5qc3giXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBSWdDIiwiZmlsZSI6IkM6XFxVc2Vyc1xcTWFya1xcZ2l0XFxzYWRiYW5nXFxjb21wb25lbnRzXFxwYXJhbGxheC1pbWFnZS5qc3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnXHJcblxyXG5pbXBvcnQgc3R5bGVkIGZyb20gJ0BlbW90aW9uL3N0eWxlZCdcclxuXHJcbmNvbnN0IFBhcmFsbGF4U3R5bGUgPSBzdHlsZWQuZGl2YFxyXG4gIHVzZXItc2VsZWN0OiAnbm9uZSc7XHJcbiAgYmFja2dyb3VuZC1pbWFnZTogJHsoeyBpbWFnZVVybCB9KSA9PiBgdXJsKCR7aW1hZ2VVcmx9KWB9O1xyXG4gIGhlaWdodDogMTAwJTtcclxuICB3aWR0aDogMTAwJTtcclxuICBiYWNrZ3JvdW5kLWF0dGFjaG1lbnQ6IGZpeGVkO1xyXG4gIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjtcclxuICBiYWNrZ3JvdW5kLXJlcGVhdDogbm8tcmVwZWF0O1xyXG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XHJcbmBcclxuXHJcbmNvbnN0IFBhcmFsbGF4SW1hZ2UgPSBwcm9wcyA9PiAoXHJcbiAgPFBhcmFsbGF4U3R5bGUgey4uLnByb3BzfT5cclxuICAgIHtwcm9wcy5jaGlsZHJlbn1cclxuICA8L1BhcmFsbGF4U3R5bGU+XHJcbilcclxuXHJcbmV4cG9ydCBkZWZhdWx0IFBhcmFsbGF4SW1hZ2VcclxuIl19 */"));
+
+const ParallaxImage = props => __jsx(ParallaxStyle, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}), props.children);
+
+/* harmony default export */ __webpack_exports__["default"] = (ParallaxImage);
 
 /***/ }),
 
@@ -139,13 +175,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/header */ "./components/header.jsx");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! reactstrap */ "reactstrap");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/styles.scss */ "./styles/styles.scss");
-/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/styles.scss */ "./styles/styles.scss");
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "C:\\Users\\Mark\\git\\sadbang\\layouts\\main.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
 
 
 
@@ -154,7 +187,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const MainLayout = props => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 10
   },
   __self: undefined
 }, __jsx("link", {
@@ -162,23 +195,36 @@ const MainLayout = props => __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.F
   href: "/static/favicon.png",
   __source: {
     fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+})), __jsx("div", {
+  className: "overflow-hidden",
+  style: {
+    maxHeight: '100vh'
+  },
+  __source: {
+    fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
-})), __jsx(_components_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+}, __jsx(_components_header__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}), __jsx("div", {
+  className: "overflow-auto",
+  style: {
+    maxHeight: '100vh'
+  },
   __source: {
     fileName: _jsxFileName,
     lineNumber: 15
   },
   __self: undefined
-}), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_3__["Container"], {
-  className: "pt-3",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
-}, props.children));
+}, props.children)));
 
 /* harmony default export */ __webpack_exports__["default"] = (MainLayout);
 
@@ -269,6 +315,39 @@ module.exports = __webpack_require__(/*! core-js/library/fn/promise */ "core-js/
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/weak-map */ "core-js/library/fn/weak-map");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/extends.js ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
+/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js");
+/* harmony import */ var _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_assign__WEBPACK_IMPORTED_MODULE_0__);
+
+function _extends() {
+  _extends = _core_js_object_assign__WEBPACK_IMPORTED_MODULE_0___default.a || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
+
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
+    }
+
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
 
 /***/ }),
 
@@ -1945,8 +2024,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(reactstrap__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_parallax_image__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/parallax-image */ "./components/parallax-image.jsx");
 var _jsxFileName = "C:\\Users\\Mark\\git\\sadbang\\pages\\index.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -1955,35 +2036,93 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 const Index = () => __jsx(_layouts_main__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
-}, __jsx("h1", {
-  className: "text-center",
-  __source: {
-    fileName: _jsxFileName,
     lineNumber: 9
   },
   __self: undefined
-}, "Welcome to sadbang"), __jsx("div", {
-  className: "text-center",
+}, __jsx("h1", {
+  className: "text-center m-4",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 10
+  },
+  __self: undefined
+}, "Welcome to sadbang"), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, "I love cheese, especially cauliflower cheese cheese and biscuits. Say cheese fromage frais squirty cheese port-salut paneer cheese strings chalk and cheese cheesy grin. Danish fontina cheesy feet cheese on toast gouda squirty cheese taleggio brie st. agur blue cheese. Camembert de normandie pepper jack caerphilly croque monsieur manchego pecorino cottage cheese fromage. Cream cheese when the cheese comes out everybody's happy brie cut the cheese manchego feta cheese triangles red leicester. Roquefort queso mozzarella cheese strings fondue squirty cheese port-salut feta. Edam cheese and biscuits melted cheese say cheese edam hard cheese st. agur blue cheese jarlsberg. Say cheese cheese and wine cow say cheese airedale mozzarella cream cheese cheese on toast. Bocconcini bocconcini parmesan danish fontina chalk and cheese pecorino macaroni cheese macaroni cheese. Macaroni cheese roquefort everyone loves blue castello cow the big cheese jarlsberg cheese strings. Paneer."), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, "Roquefort cheese strings lancashire. Halloumi lancashire danish fontina cottage cheese manchego mascarpone cheese slices who moved my cheese. Monterey jack parmesan halloumi who moved my cheese cow monterey jack monterey jack swiss. Monterey jack cauliflower cheese cheddar mozzarella emmental stinking bishop cheesy feet boursin. Cheese triangles edam edam swiss red leicester cheese on toast cow fromage frais. Cottage cheese roquefort red leicester cheese slices cheese and biscuits parmesan stilton feta. Chalk and cheese stilton cheddar stilton cheese and biscuits st. agur blue cheese cauliflower cheese who moved my cheese. Cheese slices mozzarella jarlsberg squirty cheese pecorino goat paneer mozzarella. Lancashire smelly cheese cheesy grin cheese triangles everyone loves cauliflower cheese cottage cheese.")), __jsx("div", {
+  style: {
+    height: '12rem'
+  },
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
+  },
+  __self: undefined
+}, __jsx(_components_parallax_image__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  imageUrl: "/static/tim-mossholder-ekPRFpnbdqM-unsplash.jpg",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+  },
+  __self: undefined
+})), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+}, "Caerphilly ricotta brie. Port-salut taleggio cheese on toast cream cheese cauliflower cheese cheese triangles caerphilly cheddar. Port-salut ricotta goat caerphilly when the cheese comes out everybody's happy bocconcini cheese on toast hard cheese. Smelly cheese red leicester cheese on toast cheesy feet babybel pecorino lancashire macaroni cheese. Croque monsieur feta cheese and wine bavarian bergkase cheeseburger caerphilly st. agur blue cheese cheesy grin. Stinking bishop feta blue castello cheesy feet roquefort mozzarella cheddar cheesy grin. Chalk and cheese lancashire croque monsieur croque monsieur brie gouda halloumi melted cheese. Red leicester bavarian bergkase cheese triangles bocconcini boursin cheese strings fondue swiss. Ricotta babybel cut the cheese cottage cheese danish fontina boursin who moved my cheese ricotta. Fromage."), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+}, "Everyone loves cheese triangles parmesan. The big cheese pecorino gouda croque monsieur melted cheese red leicester everyone loves cheese and wine. Stinking bishop cheesy feet say cheese gouda ricotta cheeseburger the big cheese cheesecake. Cheesy feet taleggio say cheese danish fontina halloumi paneer cheese strings emmental. Swiss babybel chalk and cheese fromage gouda fromage jarlsberg feta. Say cheese red leicester bavarian bergkase swiss cheddar cream cheese taleggio stinking bishop. Cheese strings brie smelly cheese stinking bishop cheesecake roquefort gouda halloumi. Cheese strings halloumi lancashire fromage cheese and wine manchego gouda boursin. Cheese and wine caerphilly bocconcini red leicester taleggio fromage frais airedale squirty cheese. Croque monsieur cottage cheese stilton airedale camembert de normandie edam cheddar."), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}, "Emmental stilton cauliflower cheese. Cheese and wine cottage cheese queso fromage frais edam bocconcini bocconcini rubber cheese. Pepper jack bocconcini brie cut the cheese say cheese cheese on toast cheese triangles cottage cheese. Stinking bishop caerphilly edam roquefort camembert de normandie cream cheese mascarpone the big cheese. Fondue swiss bocconcini monterey jack mozzarella danish fontina pecorino cheese and biscuits. Cheeseburger camembert de normandie cream cheese when the cheese comes out everybody's happy cheesy grin cow melted cheese queso. Cheesy grin jarlsberg when the cheese comes out everybody's happy cream cheese cut the cheese brie cut the cheese paneer. Monterey jack cheese slices cauliflower cheese cottage cheese the big cheese dolcelatte pepper jack roquefort. St. agur blue cheese lancashire smelly cheese cheese and biscuits the big cheese parmesan cheese slices croque monsieur. Bavarian bergkase croque monsieur mascarpone emmental croque monsieur.")), __jsx("div", {
+  className: "text-center",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
   href: "/about/index",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
+    lineNumber: 34
   },
   __self: undefined
 }, __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_2__["Button"], {
   color: "link",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 35
   },
   __self: undefined
 }, "Visit our about page"))));
@@ -2012,6 +2151,17 @@ const Index = () => __jsx(_layouts_main__WEBPACK_IMPORTED_MODULE_1__["default"],
 
 module.exports = __webpack_require__(/*! C:\Users\Mark\git\sadbang\pages\index.jsx */"./pages/index.jsx");
 
+
+/***/ }),
+
+/***/ "@emotion/styled-base":
+/*!***************************************!*\
+  !*** external "@emotion/styled-base" ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@emotion/styled-base");
 
 /***/ }),
 
